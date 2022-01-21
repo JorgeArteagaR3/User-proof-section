@@ -1,0 +1,64 @@
+.main-section {
+    display: flex;
+    max-width: 1440px;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.primary-section {
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+}
+.title-text {
+    width: 450px;
+}
+.title-text h2 {
+    font-size: 4.5rem;
+}
+.title-text p {
+    font-size: 1.45rem;
+    line-height: 2.5rem;
+}
+.secondary-section {
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.secondary-section .rating-box {
+    width: 500px;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    height: 70px;
+    margin-left: 0;
+}
+.secondary-section .stars-two {
+    margin-left: 50px;
+}
+.secondary-section .stars-three {
+    margin-left: 100px;
+}
+
+.third-section {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.proofbox {
+    margin-right: 3rem;
+}
+.second-proof {
+    margin-top: 20px;
+}
+.third-proof {
+    margin-top: 40px;
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+.main-section {
+    font-family: "Spartan", sans-serif;
+    width: 100%;
+    min-width: 375px;
+    height: auto;
+    background-image: url("../images/bg-pattern-top-mobile.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.primary-section {
+    width: 90%;
+    text-align: center;
+    min-width: 337.5;
+    margin: 0 auto;
+}
+.title-text h2 {
+    margin-bottom: 1.5rem;
+    color: hsl(300, 43%, 22%);
+    font-size: 3.6rem;
+}
+.title-text p {
+    font-size: 1.45rem;
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+.secondary-section {
+    width: 90%;
+    text-align: center;
+    min-width: 337.5;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.rating-box {
+    background-color: hsl(300, 24%, 96%);
+    max-width: 500px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 7px;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.rating-box .stars {
+    margin-bottom: 0.7rem;
+}
+.stars img {
+    margin-left: 0.3rem;
+}
+.rating-box p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.third-section {
+    width: 90%;
+    text-align: center;
+    min-width: 337.5;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.proofbox {
+    background-color: hsl(300, 43%, 22%);
+    margin-bottom: 1.5rem;
+    border-radius: 7px;
+    max-width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    height: 230px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.user-box {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.user-box img {
+    width: 40px;
+    border-radius: 100px;
+    margin-right: 2rem;
+}
+.user-description {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.proofbox h4,
+p {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+.proof-text {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: start;
+}
+.proofbox h4 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    text-align: start;
+}
