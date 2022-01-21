@@ -12,9 +12,6 @@ html {
     width: 100%;
     min-width: 375px;
     height: auto;
-    background-image: url("../images/bg-pattern-top-mobile.svg");
-    background-repeat: no-repeat;
-    background-color: hsl(0, 0%, 100%);
     margin: 0 auto;
     font-size: 1.5rem;
     padding-top: 5rem;
